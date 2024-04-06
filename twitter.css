@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 60px;
+	position: relative;
+	top: 90px;
+	right: 40px;
+	font-family: georgia;
+}
+
+h3{
+	font-weight: 800;
+	font-family: calibri;
+	position: relative;
+	top: 150px;
+	right: 43px;
+	font-size: 40px;
+}
+
+.google{
+	font-family: Arial;
+	position: relative;
+	top: 130px;
+	right: 40px;
+	height: 40px;
+	width: 300px;
+	border-radius: 25px;
+	cursor: pointer;
+	border-width: 1px;
+	background-color: white;
+	border-color: rgb(217, 214, 214);
+}
+
+.apple{
+	font-weight: bold;
+	font-family: Arial;
+	position: relative;
+	top: 140px;
+	right: 40px;
+	height: 40px;
+	width: 300px;
+	background-color: white;
+	border-radius: 25px;
+	cursor: pointer;
+	border-width: 1px;
+	border-color: rgb(217, 214, 214);
+}
+a{
+	color: rgb(72, 153, 172);
+	text-decoration: none;
+}
+
+.create{
+	font-weight: bold;
+	font-family: Arial;
+	position: relative;
+	font-size: 15px;
+	top: 160px;
+	right: 40px;
+	height: 40px;
+	width: 300px;
+	background-color: rgb(81, 163, 235);
+	border-color: rgb(81, 163, 235);
+	border-radius: 25px;
+	color: white;
+	cursor: pointer;
+	border-width: 1px;
+}
+
+.signIn{
+	font-weight: bold;
+	font-family: Arial;
+	position: relative;
+	font-size: 15px;
+	top: 300px;
+	right: 40px;
+	height: 40px;
+	width: 300px;
+	background-color:white;
+	border-color: rgb(217, 214, 214);
+	color: rgb(49, 184, 241);
+	border-radius: 25px;
+	cursor: pointer;
+	border-width: 1px;
+	top: 210px;
+	
+}
+
+.plain{
+	position: relative;
+	top: 20px;
+}
+
+h5{
+	position: relative;
+	top: 185px;
+	font-size: 20px;
+	right: 35px;
+}
+
+.container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: row;
+}
+
+.image-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 9%;
+}
+
+img{
+	width: 100%;
+	
+}
+
+.logo1{
+	width: 15px;
+	position: relative;
+	right: 25px;
+	top: 1px;
+}
+
+.logo2{
+	width: 15px;
+	position: relative;
+	right: 25px;
+	top: 1px;
+}
+
+hr{
+	position: relative;
+	top: 160px;
+	right: 40px;
+	width: 125px;
+}
+p{
+	position: relative;
+	top: 148px;
+	left: 100px;
+	font-family: tahoma;
+}
+.line2{
+	position: relative;
+	bottom: 20px;
+	left: 165px;
+
+}
+
+.allButtons{
+	position: relative;
+	top: 50px;
+}
+
+.terms{
+	font-family: Cambria;
+	font-size: 11.5px;
+	width: 340px;
+	position: relative;
+	right: 130px;
+	top: 20px;
+}
+
+.footer{
+	position: relative;
+	nav-right: auto;
+	right: 60px;
+	font-size: 14px;
+	color: grey;
+}
+
+.lastText{
+	position: relative;
+	left: 450px;
+	margin:12px;
+}
