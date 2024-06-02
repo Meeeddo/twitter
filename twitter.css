@@ -1,183 +1,338 @@
-*{
-	margin: 0;
-	padding: 0;
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-	font-size: 60px;
-	position: relative;
-	top: 90px;
-	right: 40px;
-	font-family: georgia;
-}
-
-h3{
-	font-weight: 800;
-	font-family: calibri;
-	position: relative;
-	top: 150px;
-	right: 43px;
-	font-size: 40px;
-}
-
-.google{
-	font-family: Arial;
-	position: relative;
-	top: 130px;
-	right: 40px;
-	height: 40px;
-	width: 300px;
-	border-radius: 25px;
-	cursor: pointer;
-	border-width: 1px;
-	background-color: white;
-	border-color: rgb(217, 214, 214);
-}
-
-.apple{
-	font-weight: bold;
-	font-family: Arial;
-	position: relative;
-	top: 140px;
-	right: 40px;
-	height: 40px;
-	width: 300px;
-	background-color: white;
-	border-radius: 25px;
-	cursor: pointer;
-	border-width: 1px;
-	border-color: rgb(217, 214, 214);
-}
-a{
-	color: rgb(72, 153, 172);
-	text-decoration: none;
-}
-
-.create{
-	font-weight: bold;
-	font-family: Arial;
-	position: relative;
-	font-size: 15px;
-	top: 160px;
-	right: 40px;
-	height: 40px;
-	width: 300px;
-	background-color: rgb(81, 163, 235);
-	border-color: rgb(81, 163, 235);
-	border-radius: 25px;
+h1 {
+    font-size: 65px;
+    width: 540px;
+    position: relative;
+    top: 60px;
+    right: 40px;
+    font-family: Georgia;
 	color: white;
-	cursor: pointer;
-	border-width: 1px;
 }
 
-.signIn{
-	font-weight: bold;
-	font-family: Arial;
+.overlay-text{
 	position: relative;
-	font-size: 15px;
-	top: 300px;
-	right: 40px;
-	height: 40px;
-	width: 300px;
-	background-color:white;
-	border-color: rgb(217, 214, 214);
-	color: rgb(49, 184, 241);
-	border-radius: 25px;
-	cursor: pointer;
-	border-width: 1px;
-	top: 210px;
+	left: 250px;
 	
 }
 
-.plain{
-	position: relative;
-	top: 20px;
+h3 {
+    font-weight: 800;
+    font-family: Calibri;
+    position: relative;
+	color: white;
+    top: 110px;
+    right: 43px;
+    font-size: 40px;
 }
 
-h5{
+body{
 	position: relative;
-	top: 185px;
-	font-size: 20px;
-	right: 35px;
+	
+	background-color: black;
 }
 
-.container{
-	position: relative;
+.google, .apple, .create, .signIn {
+    font-family: Arial;
+    position: relative;
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+.google {
+    top: 130px;
+    right: 40px;
+    background-color: white;
+    border-color: rgb(217, 214, 214);
+}
+
+.apple {
+    font-weight: bold;
+    top: 140px;
+    right: 40px;
+    background-color: white;
+    border-color: rgb(217, 214, 214);
+}
+
+.create {
+    font-weight: bold;
+    font-size: 15px;
+    top: 160px;
+    right: 40px;
+    background-color: rgb(58, 130, 193);
+    color: white;
+}
+
+.terms p{
+    color: rgb(113, 117, 117);
+}
+
+.signIn {
+    font-weight: bold;
+    font-size: 15px;
+    top: 257px;
+    right: 40px;
+    background-color: black;
+    border-color: rgba(133, 201, 231, 0.418);
+    color: rgb(49, 184, 241);
+}
+
+a {
+    color: rgb(72, 153, 172);
+    text-decoration: none;
+}
+
+h5 {
+    position: relative;
+    top: 225px;
+    font-size: 18px;
+    right: 35px;
+    color: white;
+    font-family: Tahoma;
+}
+
+.container {
+    position: relative;
+    display: flex;
+	width: 400px;
+}
+
+.image-container {
+
 	display: flex;
-	justify-content: center;
-	height: 100vh;
-	flex-direction: row;
-}
-
-.image-container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-right: 9%;
-}
-
-img{
-	width: 100%;
+	flex: 30%;
+	position: relative;
+	top: 100px;
 	
 }
 
-.logo1{
-	width: 15px;
+.image-container img{
+	height: 340px;
 	position: relative;
-	right: 25px;
-	top: 1px;
+    left: 100px;
+    
 }
 
-.logo2{
-	width: 15px;
-	position: relative;
-	right: 25px;
-	top: 1px;
+
+.logo1, .logo2 {
+    width: 15px;
+    position: relative;
+    right: 25px;
+    top: 1px;
 }
 
-hr{
-	position: relative;
-	top: 160px;
-	right: 40px;
-	width: 125px;
-}
-p{
-	position: relative;
-	top: 148px;
-	left: 100px;
-	font-family: tahoma;
-}
-.line2{
-	position: relative;
-	bottom: 20px;
-	left: 165px;
-
+hr {
+    position: relative;
+    top: 160px;
+    right: 40px;
+    width: 125px;
+	
 }
 
-.allButtons{
-	position: relative;
-	top: 50px;
+p {
+    position: relative;
+    top: 148px;
+    left: 100px;
+    font-family: Tahoma;
+	color: white;
 }
 
-.terms{
-	font-family: Cambria;
-	font-size: 11.5px;
-	width: 340px;
-	position: relative;
-	right: 130px;
-	top: 20px;
+.line2 {
+    position: relative;
+    bottom: 20px;
+    left: 165px;
+    width: 100px;
+}
+
+
+
+.terms {
+    font-family: Cambria;
+    font-size: 11.5px;
+    width: 340px;
+    position: relative;
+    right: 130px;
+    top: 20px;
+}
+
+
+.lastText{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .footer{
-	position: relative;
-	nav-right: auto;
-	right: 60px;
-	font-size: 14px;
-	color: grey;
+    position: absolute;
+    align-self: center;
+    
 }
 
-.lastText{
-	position: relative;
-	left: 450px;
-	margin:12px;
+.footer p {
+	left: -10px;
+    position: relative;
+    top: 300px;
+    font-size: 13px;
+    text-align: center;
+	width: 100%;
+    color: grey;
+    
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+
+    .image-container img{
+        position: relative;
+        height: 230px;
+        width: 350px;
+        left: -50px;
+        
+        
+    }
+
+
+    .footer{
+        top: 2480px;
+        height: 10px;
+        align-content: center;      
+    }
+
+    body{
+        top: 100px;
+        left: 150px;
+        height: auto;
+        position: auto;
+    }
+    .footer p{
+        position: relative;
+        font-size: 55px;
+        text-align: center;
+        align-self: center;
+        width: 1258px;
+        text-align: center;
+       
+      
+    }
+
+    .overlay-text{
+        position: relative;
+        top: 490px;
+        padding-right: 900px;
+       
+    }
+
+    h1{
+        position: relative;
+        font-size: 160px;
+        right: 600px;
+        width: 900px;
+        bottom: -200px;
+       
+    }
+
+    h3{
+        font-size: 120px;
+        right: 600px;
+        width: 900px;
+        bottom: 200px;
+        
+        
+    }
+
+    .allButtons{
+        position: relative;
+        right: 550px;
+        top: 150px;
+        
+        
+    }
+
+    .google{
+        width: 1240px;
+        height: 150px;
+        border-radius: 50px;
+        top: 100px;
+        border-radius: 80px;
+        font-size: 60px;
+    }
+
+    .apple{
+        width: 1240px;
+        height: 150px;
+        border-radius: 50px;
+        border-radius: 80px;
+        font-size: 60px;
+    }
+
+    .logo1, .logo2 {
+        width: 65px;
+        position: relative;
+        right: 25px;
+        top: 3px;
+    }
+
+    .signIn{
+        top: 700px;
+        width: 1200px;
+        height: 150px;
+        border-radius: 80px;
+        color: rgb(7, 108, 210);
+        border-width: 8px;
+        border-color: gray;
+        font-size: 70px;
+        right: 580px;
+    }
+    
+    .terms{
+        top: 100px;
+        font-size: 43px;
+        width: 1200px;
+    }
+    
+    h5{
+        top: 500px;
+        font-size: 80px;
+        color: white;
+        font-family: calibri;
+    }
+
+    .create{
+        width: 1240px;
+        height: 170px;
+        border-radius: 80px;
+        color: rgb(248, 249, 251);
+        border-width: 8px;
+        background-color: rgb(50, 121, 180);
+        font-size: 60px;
+        border-style: none;
+    }
+
+    hr{
+        
+        width: 500px;
+        top: 200px;
+    }
+
+    .or{
+        font-size: 60px;
+        left: 530px;
+        top: 150px;
+        font-family: serif;
+        color: rgb(167, 170, 172);
+    }
+  
+    .line2{
+        left: 700px;
+        bottom: 80px;
+    }
 }
