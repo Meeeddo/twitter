@@ -265,11 +265,7 @@ p {
         top: 100px;
         border-radius: 80px;
         font-size: 60px;
-<<<<<<< HEAD
         color: black;
-=======
-	color: black;
->>>>>>> f58a9f8a8de51994d4ff024eb8818b74e857315d
     }
 
     .apple{
@@ -278,7 +274,7 @@ p {
         border-radius: 50px;
         border-radius: 80px;
         font-size: 60px;
-	color: black;
+	    color: black;
     }
 
     .logo1, .logo2 {
