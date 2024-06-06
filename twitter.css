@@ -2,342 +2,291 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    
+}
+
+.or{
+    position: relative;
+    bottom: 33px;
+ 
+}
+
+h1, h3 {
+    color: white;
 }
 
 h1 {
-    font-size: 65px;
-    width: 540px;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    font-family: Cochin;
     position: relative;
-    top: 60px;
-    right: 40px;
-    font-family: Georgia;
-	color: white;
-}
-
-.overlay-text{
-	position: relative;
-	left: 250px;
-	
+    left: 88px;
 }
 
 h3 {
-    font-weight: 800;
-    font-family: Calibri;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
     position: relative;
-	color: white;
-    top: 110px;
-    right: 43px;
-    font-size: 40px;
+    right: 85px;
+    top: 20px;
 }
 
-body{
-	position: relative;
-	
-	background-color: black;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.google, .apple, .create, .signIn {
-    font-family: Arial;
+.image-container img {
+    max-width: 100%;
+    height: auto;
     position: relative;
-    height: 40px;
-    width: 300px;
+    right: 270px;
+    top: 100px;
+    
+}
+
+.overlay-text {
+    margin: 20px;
+    position: relative;
+    left: 190px;
+    bottom: 300px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    max-width: 325px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
     border-radius: 25px;
     cursor: pointer;
-    border-width: 1px;
+    border: 1px solid transparent;
 }
 
 .google {
-    top: 130px;
-    right: 40px;
     background-color: white;
+    color: black;
     border-color: rgb(217, 214, 214);
 }
 
 .apple {
-    font-weight: bold;
-    top: 140px;
-    right: 40px;
     background-color: white;
+    color: black;
     border-color: rgb(217, 214, 214);
 }
 
 .create {
-    font-weight: bold;
-    font-size: 15px;
-    top: 160px;
-    right: 40px;
     background-color: rgb(58, 130, 193);
     color: white;
+    position: relative;
+    top: -60px;
 }
 
-.terms p{
-    color: rgb(113, 117, 117);
+h5{
+    position: relative;
+    color: white;
+    font-size: 17px;
+    right: 45px;
+    bottom: 40px;
 }
 
 .signIn {
-    font-weight: bold;
-    font-size: 15px;
-    top: 257px;
-    right: 40px;
     background-color: black;
-    border-color: rgba(133, 201, 231, 0.418);
     color: rgb(49, 184, 241);
-}
-
-p a {
-    color: rgb(17, 111, 205);
-    text-decoration: none;
-}
-
-h5 {
+    border: 2px solid rgba(133, 201, 231, 0.418);
     position: relative;
-    top: 225px;
-    font-size: 18px;
-    right: 35px;
-    color: white;
-    font-family: Tahoma;
+    bottom: 20px;
+    border-width: 0.5px;
 }
-
-.container {
-    position: relative;
-    display: flex;
-	width: 400px;
-}
-
-.image-container {
-
-	display: flex;
-	flex: 30%;
-	position: relative;
-	top: 100px;
-	
-}
-
-.image-container img{
-	height: 340px;
-	position: relative;
-    left: 100px;
-    
-}
-
 
 .logo1, .logo2 {
-    width: 15px;
-    position: relative;
-    right: 25px;
-    top: 1px;
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 hr {
+    margin: 20px auto;
     position: relative;
-    top: 160px;
-    right: 40px;
-    width: 125px;
-	
+    width: 27%;
+    right: 80px;
+}
+
+.line2{
+    position: relative;
+    left: 159px;
+    bottom: 60px;
+}
+
+
+p a {
+    color: rgb(18, 107, 207);
+    font-style: none;
 }
 
 p {
-    position: relative;
-    top: 148px;
-    left: 100px;
-    font-family: Tahoma;
-	color: white;
+    font-family: Tahoma, sans-serif;
+    color: white;
+    margin: 20px 0;
 }
 
-.line2 {
+.terms p {
+    color: rgb(113, 117, 117);
+    font-size: 0.71em;
     position: relative;
-    bottom: 20px;
-    left: 165px;
-    width: 100px;
+    width: 330px;
+    left: 90px;
+    text-align: left;
+    bottom: 78px;
 }
 
-
-
-.terms {
-    font-family: Cambria;
-    font-size: 11.5px;
-    width: 340px;
-    position: relative;
-    right: 130px;
-    top: 20px;
-}
-
-
-.lastText{
-    position: relative;
+.footer {
     text-align: center;
-    margin-top: 10px;
-}
-
-.footer{
-    position: absolute;
-    align-self: center;
-    
+    color: grey;
+    position: relative;
+    bottom: 290px;
 }
 
 .footer p {
-	left: -10px;
-    position: relative;
-    top: 300px;
-    font-size: 13px;
-    text-align: center;
-	width: 100%;
-    color: grey;
-    
+    font-size: 0.8rem;
 }
 
-
-
 /* Mobile Styles */
-@media (max-width: 768px) {
-
-    .image-container img{
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
         position: relative;
-        height: 230px;
-        width: 350px;
-        left: -50px;
-        
-        
-    }
-
-
-    .footer{
-        top: 2480px;
-        height: 10px;
-        align-content: center;  
-        width: auto;    
+        text-align: left;
+        left: 20px;
+        top: 30px;
     }
 
     body{
-        top: 100px;
-        left: 150px;
-        height: auto;
-        position: auto;
+        position: relative;     
     }
-    .footer p{
+
+    h3 {
+        font-size: 1.2rem;
         position: relative;
-        font-size: 55px;
-        text-align: center;
-        align-self: center;
-        width: 1258px;
-        text-align: center;
-       
-      
+        text-align: left;
+        left: 20px;
+        top: 30px;
     }
 
-    .overlay-text{
+    button {
+        font-size: 0.9rem;
+        padding: 8px;
+        left: 20px;
+        height: 50px;
+        width: 350px;
+    }
+
+    .line2{
         position: relative;
-        top: 490px;
-        padding-right: 900px;
-       
+        left: 160px;
+        bottom: 62px;
     }
-
-    h1{
+   
+    .or{
         position: relative;
-        font-size: 160px;
-        right: 600px;
-        width: 900px;
-        bottom: -200px;
-       
+        bottom: 33px;
     }
 
-    h3{
-        font-size: 120px;
-        right: 600px;
-        width: 900px;
-        bottom: 200px;
+    .google, .apple, .create, .signIn {
+        max-width: 90%;
+        font-size: 1rem;
         
-        
-    }
-
-    .allButtons{
-        position: relative;
-        right: 550px;
-        top: 150px;
-        
-        
-    }
-
-    .google{
-        width: 1240px;
-        height: 150px;
-        border-radius: 50px;
-        top: 100px;
-        border-radius: 80px;
-        font-size: 60px;
-        color: black;
-    }
-
-    .apple{
-        width: 1240px;
-        height: 150px;
-        border-radius: 50px;
-        border-radius: 80px;
-        font-size: 60px;
-	    color: black;
     }
 
     .logo1, .logo2 {
-        width: 65px;
-        position: relative;
-        right: 25px;
-        top: 3px;
-        color: black;
+        width: 15px;
     }
 
-    .signIn{
-        top: 700px;
-        width: 1200px;
-        height: 150px;
-        border-radius: 80px;
-        color: rgb(70, 156, 241);
-        border-width: 8px;
-        border-color: gray;
-        font-size: 70px;
-        right: 580px;
+    hr {
+        width: 38%;
+        right: 80px;
+        position: relative;
+        color: gray;
+        width: none;
     }
-    
-    .terms{
+
+       
+    .terms p {
+        font-size: 0.7rem;
+        bottom: 70px;
+        position: relative;
+        text-align: left;
+        width: 90%;
+        left: 20px;
+    }
+
+    .terms a{
+        color: rgb(45, 105, 234);
+
+    }
+
+    .footer p {
+        font-size: 0.7rem;
+        position: relative;
+        width: 310px;
+        color: gray;
+        word-spacing: 0.03em;
+        text-align: center;
+        font-size: 16px;
+        top: 310px;
+        left: 25px;
+        font-family: Helvetica;
+    }
+
+    .image-container img{
+        max-width: 80px;
+        right: 120px;
+        top: 25px; 
+        
+        
+    }
+
+    .overlay-text{
+        position: inherit;
+        
         top: 100px;
-        font-size: 43px;
-        width: 1200px;
-        color: rgb(7, 150, 227);
-    }
-    
-    h5{
-        top: 500px;
-        font-size: 80px;
-        color: white;
-        font-family: calibri;
     }
 
     .create{
-        width: 1240px;
-        height: 170px;
-        border-radius: 80px;
-        color: rgb(248, 249, 251);
-        border-width: 8px;
-        background-color: rgb(90, 162, 220);
-        font-size: 60px;
-        border-style: none;
+        position: relative;
+        bottom: 60px;
+        left: -3px;
     }
 
-    hr{
-        
-        width: 500px;
-        top: 200px;
+    .signIn{
+        position: relative;
+        bottom: 50px;
+        left: -3px;
+        top: 15px;
     }
 
-    .or{
-        font-size: 60px;
-        left: 530px;
-        top: 150px;
-        font-family: serif;
-        color: rgb(167, 170, 172);
+    h5{
+        color: white;
+        position: relative;
+        top: 2px;
+        right: 60px;
+        font-size: 15px;
     }
-  
-    .line2{
-        left: 700px;
-        bottom: 80px;
-    }
+
+
 }
