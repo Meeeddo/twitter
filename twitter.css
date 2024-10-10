@@ -6,7 +6,7 @@
 }
 
 html, body {
-    width: 100%;
+    width: relative;
     overflow-x: hidden;
     background-color: black;
 }
@@ -15,11 +15,19 @@ body {
     font-family: Arial, sans-serif;
     position: relative;
     
+    
+}
+
+.overlay-text{
+    position: relative;
+    left: 180px;
+    bottom: 230px;
 }
 
 .or{
     position: relative;
     bottom: 33px;
+    left: 615px;
  
 }
 
@@ -32,22 +40,25 @@ h1 {
     margin-bottom: 20px;
     font-family: Cochin;
     position: relative;
-    left: 88px;
+    left: 460px;
+  
 }
 
 h3 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     position: relative;
-    right: 85px;
+    left: 465px;
     top: 20px;
 }
 
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  
 }
 
 .image-container img {
@@ -59,12 +70,7 @@ h3 {
     
 }
 
-.overlay-text {
-    margin: 20px;
-    position: relative;
-    left: 190px;
-    bottom: 300px;
-}
+
 
 button {
     display: block;
@@ -101,7 +107,7 @@ h5{
     position: relative;
     color: white;
     font-size: 17px;
-    right: 45px;
+    left: 469px;
     bottom: 40px;
 }
 
@@ -123,13 +129,14 @@ h5{
 hr {
     margin: 20px auto;
     position: relative;
-    width: 27%;
-    right: 80px;
+    width: 10%;
+    right: 90px;
 }
 
 .line2{
     position: relative;
-    left: 159px;
+    left: 45px;
+    width: 120%;
     bottom: 60px;
 }
 
@@ -150,7 +157,7 @@ p {
     font-size: 0.71em;
     position: relative;
     width: 330px;
-    left: 90px;
+    left: 480px;
     text-align: left;
     bottom: 78px;
 }
@@ -159,7 +166,15 @@ p {
     text-align: center;
     color: grey;
     position: relative;
-    bottom: 290px;
+    bottom: 150px;
+    
+}
+
+.designed-By{
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    font-size: 10px;
 }
 
 .footer p {
@@ -172,7 +187,7 @@ p {
         font-size: 3rem;
         position: relative;
         text-align: left;
-        left: 20px;
+        left: 30px;
         top: 30px;
         width: 80px;
     }
@@ -185,7 +200,7 @@ p {
         font-size: 1.2rem;
         position: relative;
         text-align: left;
-        left: 20px;
+        left: 30px;
         top: 30px;
     }
 
@@ -200,12 +215,14 @@ p {
     .line2{
         position: relative;
         left: 160px;
-        bottom: 62px;
+        bottom: 60px;
+        width: 110%;
     }
    
     .or{
         position: relative;
         bottom: 33px;
+        left: 188px;
     }
 
     .google, .apple, .create, .signIn {
@@ -219,8 +236,8 @@ p {
     }
 
     hr {
-        width: 38%;
-        right: 80px;
+        width: 35%;
+        right: 90px;
         position: relative;
         color: gray;
         width: none;
@@ -233,7 +250,7 @@ p {
         position: relative;
         text-align: left;
         width: 90%;
-        left: 20px;
+        left: 30px;
     }
 
     .terms a{
@@ -247,25 +264,28 @@ p {
         width: 310px;
         color: gray;
         word-spacing: 0.03em;
-        text-align: center;
         font-size: 16px;
-        top: 310px;
-        left: 25px;
+        top: 170px;
+        align-content: center;
+        left: 50px;
         font-family: Helvetica;
+    }
+
+    .designed-By{
+        position: relative;
+        top: 10px;
     }
 
     .image-container img{
         max-width: 80px;
-        right: 120px;
-        top: 25px; 
-        
-        
+        right: 130px;
+        top: 55px;   
     }
 
     .overlay-text{
-        position: inherit;
-        
-        top: 100px;
+       position: static;
+       padding-top: 50px;
+       padding-left: 15px; 
     }
 
     .create{
@@ -282,11 +302,8 @@ p {
     }
 
     h5{
-        color: white;
         position: relative;
-        top: 2px;
-        right: 60px;
-        font-size: 15px;
+        left: 30px;
     }
 
 
