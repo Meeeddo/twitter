@@ -187,7 +187,7 @@ p {
         font-size: 3rem;
         position: relative;
         text-align: left;
-        left: 30px;
+        left: 25px;
         top: 30px;
         width: 80px;
     }
@@ -200,7 +200,7 @@ p {
         font-size: 1.2rem;
         position: relative;
         text-align: left;
-        left: 30px;
+        left: 25px;
         top: 30px;
     }
 
@@ -214,7 +214,7 @@ p {
 
     .line2{
         position: relative;
-        left: 160px;
+        left: 155px;
         bottom: 60px;
         width: 110%;
     }
@@ -222,7 +222,7 @@ p {
     .or{
         position: relative;
         bottom: 33px;
-        left: 188px;
+        left: 173px;
     }
 
     .google, .apple, .create, .signIn {
@@ -265,9 +265,9 @@ p {
         color: gray;
         word-spacing: 0.03em;
         font-size: 16px;
-        top: 170px;
+        top: 200px;
         align-content: center;
-        left: 50px;
+        left: 30px;
         font-family: Helvetica;
     }
 
@@ -285,7 +285,7 @@ p {
     .overlay-text{
        position: static;
        padding-top: 50px;
-       padding-left: 15px; 
+       padding-left: 1px; 
     }
 
     .create{
@@ -295,10 +295,12 @@ p {
     }
 
     .signIn{
-        position: relative;
-        bottom: 50px;
-        left: -3px;
-        top: 15px;
+        position: absolute;
+        bottom: 210px;
+     
+        
+        
+        
     }
 
     h5{
